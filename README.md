@@ -23,32 +23,9 @@ Convient pour l’entraînement à la reconnaissance vocale (ASR), les assistant
 
 ---
 
-## Demo (OGG sample)
+## Demo
 
-> The full dataset is stored in MP3, but below is an OGG file for quick online playback.
-
-<audio controls>
-  <source src="sample_fr.ogg?raw=1" type="audio/ogg" />
-  Your browser does not support the <code>audio</code> element. Please download the file below.
-</audio>
-
-**Download directly:** [sample_fr.ogg](sample_fr.ogg?raw=1)
-
-▶️ **[Listen online via GitHub Pages](https://maratdv.github.io/french-call-center-speech-fr/)**  
-
----
-
-## Exemple (démo en OGG)
-
-> Le jeu de données principal est en MP3, mais ci-dessous se trouve un fichier OGG pour l’écoute en ligne.
-
-<audio controls>
-  <source src="sample_fr.ogg?raw=1" type="audio/ogg" />
-  Votre navigateur ne supporte pas l’élément <code>audio</code>. Veuillez télécharger le fichier ci-dessous.
-</audio>
-
-**Télécharger directement :** [sample_fr.ogg](sample_fr.ogg?raw=1)
-
+**Download demo file:** [sample_fr.ogg](sample_fr.ogg?raw=1)  
 ▶️ **[Écouter en ligne via GitHub Pages](https://maratdv.github.io/french-call-center-speech-fr/)**  
 
 ---
