@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FR Call Center — OGG Demo Player</title>
+  <meta name="description" content="Playlist démo client–agent (FR). OGG Vorbis.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <h1>FR Call Center — OGG Demo Player</h1>
+    <p class="lead">Placez vos fichiers OGG dans <code>samples/</code> et listez-les dans <code>samples/manifest.json</code>. La page charge la playlist automatiquement.</p>
+
+    <section class="player card">
+      <audio id="audio" controls preload="metadata"></audio>
+      <div id="nowPlaying" class="now-playing">Aucun titre en cours</div>
+    </section>
+
+    <section class="playlist card">
+      <h2>Playlist</h2>
+      <ul id="list"></ul>
+    </section>
+
+    <section class="hint card">
+      <p><b>Safari</b> peut ne pas lire l’OGG — utilisez Chrome/Firefox/Edge ou téléchargez le fichier.</p>
+      <p>Si le manifeste est introuvable, un fichier unique <code>sample_fr.ogg</code> (à la racine) sera utilisé.</p>
+    </section>
+
+    <footer class="footer">
+      <a href="README.md">README.md</a>
+    </footer>
+  </main>
+
+  <script src="player.js"></script>
+</body>
+</html>
